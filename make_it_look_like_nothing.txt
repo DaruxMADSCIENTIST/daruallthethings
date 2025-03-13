@@ -39,4 +39,10 @@ file
 exiftool
 gem install zsteg
 then run zsteg -a file.png 
+=============================================================================================================
+caas :
+look for spaces then escape with; like this segment  exec(`/usr/games/cowsay ${req.params.message}`, {timeout: 5000}, (error, stdout) 
+then put your command
+================================================================================================================
+
 
